@@ -16,8 +16,8 @@ interface IProp {
 const Layout: React.FC<IProp> = ({ children }) => {
   return (
     <>
-      <Header />
-      <Sidebar />
+      {/* <Header />
+      <Sidebar /> */}
       <main className={roboto.className}>{children}</main>
       <Footer />
     </>
