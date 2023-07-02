@@ -19,7 +19,7 @@ const Layout: React.FC<IProp> = ({ children }) => {
       {/* <Header />
       <Sidebar /> */}
       <main className={roboto.className}>{children}</main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

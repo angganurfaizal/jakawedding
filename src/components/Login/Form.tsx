@@ -1,5 +1,6 @@
 import React from "react";
 import Input from "./Input";
+import Button from "./Button";
 
 export default function Form() {
   return (
@@ -17,12 +18,14 @@ export default function Form() {
           placeholder={"Username"}
         />
         <Input
+          className={"mb-0"}
           type={"password"}
           name={"password"}
           required={true}
           placeholder={"Password"}
         />
       </div>
+      <Button type={"submit"} name={"Login"} />
     </form>
   );
 }
